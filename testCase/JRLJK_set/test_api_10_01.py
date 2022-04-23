@@ -5,6 +5,8 @@ from readconfig import ReadConfig
 from common.cofingHttp import  TestRequest
 from common.ServiceLayerInterface import Service_Layer
 
+# 编写测试用例
+
 class Test_api_10_01(unittest.TestCase):
     '''
     用例名称：输入正确的炉子编号无法获取相应的数据
