@@ -1,0 +1,23 @@
+2020-05-07 14:36:53,218 - logs… - INFO - resultPathD:\JRLJK_interfacetest\report\report2020-05-07-14-36-53.html
+2020-05-07 14:36:53,218 - logs… - INFO - caseListFileD:\JRLJK_interfacetest\caselist.txt
+2020-05-07 14:36:53,218 - logs… - INFO - caseList[]
+2020-05-07 14:36:53,282 - logs… - INFO - 接口测试用例：test_api_01_01.py  ====== test  starts ========
+2020-05-07 14:36:53,365 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': '2', 'areaNo': '5', 'status': 1, 'content': [[1588833413000, 0]], 'door_status': 1}})
+2020-05-07 14:36:53,365 - logs… - INFO - code：200
+2020-05-07 14:36:53,366 - logs… - INFO - errcode：0
+2020-05-07 14:36:53,366 - logs… - INFO - furnaceNo：2
+2020-05-07 14:36:53,366 - logs… - INFO - areaNo：5
+2020-05-07 14:36:53,366 - logs… - INFO - 温度和时间不为空
+2020-05-07 14:36:53,366 - logs… - INFO - len(temp_list) =2
+2020-05-07 14:36:53,366 - logs… - INFO - 时间戳长度符合期望
+2020-05-07 14:36:53,366 - logs… - INFO - type 符合期望 
+2020-05-07 14:36:53,366 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=5, tm_mday=7, tm_hour=14, tm_min=36, tm_sec=53, tm_wday=3, tm_yday=128, tm_isdst=0)
+2020-05-07 14:36:53,366 - logs… - INFO - <class 'time.struct_time'>
+2020-05-07 14:36:53,366 - logs… - INFO - 时间戳符合期望
+2020-05-07 14:36:53,366 - logs… - INFO - 接口测试用例：test_api_01_01.py  ====== test  end ========
+2020-05-07 14:36:53,366 - logs… - INFO - 接口测试用例：test_api_01_02.py  ====== test  start ========
+2020-05-07 14:36:53,377 - logs… - INFO - (200, {'errcode': 101, 'errmsg': '不存在的炉子编号11!'})
+2020-05-07 14:36:53,377 - logs… - INFO - 请求码为： 200
+2020-05-07 14:36:53,377 - logs… - INFO - errcode errmsg 字段存在
+2020-05-07 14:36:53,377 - logs… - INFO - errcode = 101, errmsg == 不存在的炉子编号11! 
+2020-05-07 14:36:53,377 - logs… - INFO - 接口测试用例：test_api_01_02.py  ====== test  end ========

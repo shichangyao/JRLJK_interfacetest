@@ -1,0 +1,9 @@
+2020-05-11 16:48:06,348 - logs… - INFO - 接口测试用例：test_api_06_06.py  ======== test  start ========
+2020-05-11 16:48:06,349 - logs… - INFO - http://10.168.2.104:8000/api/warn_history/
+2020-05-11 16:48:06,350 - logs… - INFO - {'furnaceNo': '0'}
+2020-05-11 16:48:06,360 - logs… - INFO - (200, {'errcode': 101, 'errmsg': '不存在的炉子编号0!'})
+2020-05-11 16:48:06,361 - logs… - INFO - 请求码为： 200
+2020-05-11 16:48:06,361 - logs… - INFO - errcode/errmsg 字段存在
+2020-05-11 16:48:06,361 - logs… - INFO - errcode 返回值验证成功
+2020-05-11 16:48:06,361 - logs… - INFO - errmsg 返回值验证失败
+2020-05-11 16:48:06,361 - logs… - INFO - test_api_06_06.py : File

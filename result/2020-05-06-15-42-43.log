@@ -1,0 +1,2 @@
+2020-05-06 15:42:44,015 - logs… - INFO - 接口测试用例：test_api_01_01.py  ====== test  starts ========
+2020-05-06 15:43:05,023 - logs… - INFO - get请求错误，错误原因：HTTPConnectionPool(host='10.168.2.104', port=8000): Max retries exceeded with url: /api/now/?furnaceNo=2&areaNo=5 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B45ED1BFC8>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))

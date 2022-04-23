@@ -1,0 +1,8 @@
+2020-05-11 14:59:54,456 - logs… - INFO - 接口测试用例：test_api_06_01.py  ======== test  start ========
+2020-05-11 14:59:54,457 - logs… - INFO - http://10.168.2.104:8000/api/warn_history/
+2020-05-11 14:59:54,457 - logs… - INFO - {'furnaceNo': '2'}
+2020-05-11 14:59:54,470 - logs… - INFO - (200, {'errcode': 0, 'data': {'list': [], 'total_page': 1, 'furnaceNo': 2, 'start_time': 1589173197000, 'end_time': 1589180397000}})
+2020-05-11 14:59:54,470 - logs… - INFO - 请求码为： 200
+2020-05-11 14:59:54,470 - logs… - INFO - errcode/data  字段存在
+2020-05-11 14:59:54,470 - logs… - INFO - errcode  == 0
+2020-05-11 14:59:54,471 - logs… - INFO - 炉编号验证成功

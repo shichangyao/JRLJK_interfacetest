@@ -1,0 +1,9 @@
+2020-05-11 14:05:20,635 - logs… - INFO - 接口测试用例：test_api_04_26.py  ======== test  start ========
+2020-05-11 14:05:20,636 - logs… - INFO - http://10.168.2.104:8000/api/details/
+2020-05-11 14:05:20,637 - logs… - INFO - {'furnaceNo': '6', 'areaNo': '】'}
+2020-05-11 14:05:20,651 - logs… - INFO - (200, {'errcode': 101, 'errmsg': '区域编号必须为整数!'})
+2020-05-11 14:05:20,651 - logs… - INFO - 请求码为： 200
+2020-05-11 14:05:20,651 - logs… - INFO - errcode/errmsg  字段存在
+2020-05-11 14:05:20,651 - logs… - INFO - errcode  == 101
+2020-05-11 14:05:20,651 - logs… - INFO - errmsg ：数据格式正确！
+2020-05-11 14:05:20,652 - logs… - INFO - test_api_04_26.py : File

@@ -1,0 +1,6 @@
+2020-05-08 11:18:39,204 - logs… - INFO - 接口测试用例：test_api_04_01.py  ======== test  start ========
+2020-05-08 11:18:39,286 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': 3, 'areaNo': '4', 'status': 1, 'content': [], 'furnace_count': 10, 'area_count': '6', 'door_status': 1, 'target_temp': 1200}})
+2020-05-08 11:18:39,286 - logs… - INFO - 请求码为： 200
+2020-05-08 11:18:39,286 - logs… - INFO - errcode/data  字段存在
+2020-05-08 11:18:39,286 - logs… - INFO - errcode  == 0
+2020-05-08 11:18:39,286 - logs… - INFO - 接口测试用例：test_api_04_01.py  ========= test  end ========

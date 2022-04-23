@@ -1,0 +1,4 @@
+2020-05-11 09:51:17,907 - logs… - INFO - 接口测试用例：test_api_04_13.py  ======== test  start ========
+2020-05-11 09:51:17,908 - logs… - INFO - http://10.168.2.104:8000/api/details/
+2020-05-11 09:51:17,909 - logs… - INFO - {'furnaceNo': 3, 'areaNo': 4, 'sign': '1', 'start_time': '2020/04/22 8:00', 'end_time': '2020/04/22 16:00', 'interval': '20'}
+2020-05-11 09:51:18,077 - logs… - INFO - 500

@@ -1,0 +1,6 @@
+2020-04-30 10:20:00,396 - logs… - INFO - 接口测试用例：test_api_02_01.py  ====== test  start ========
+2020-04-30 10:20:00,469 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': '1', 'content': [1105.0, 944.0, 1164.0, 923.0, 848.0, 1085.0], 'furnace_count': 10}})
+2020-04-30 10:20:00,469 - logs… - INFO - 请求码为： 200
+2020-04-30 10:20:00,469 - logs… - INFO - errcode\data  字段存在
+2020-04-30 10:20:00,469 - logs… - INFO - furnaceNo\content\furnace_count  字段存在
+2020-04-30 10:20:00,532 - logs… - INFO - 接口测试用例：test_api_02_01.py  ====== test  end ========

@@ -1,0 +1,1311 @@
+2020-05-11 09:59:07,836 - logs… - INFO - 接口测试用例：test_api_04_13.py  ======== test  start ========
+2020-05-11 09:59:07,837 - logs… - INFO - http://10.168.2.104:8000/api/details/
+2020-05-11 09:59:07,838 - logs… - INFO - {'furnaceNo': 3, 'areaNo': 4, 'sign': '1', 'start_time': '1587513600000', 'end_time': '1587628800000', 'interval': '20'}
+2020-05-11 09:59:07,872 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': '3', 'areaNo': '4', 'status': 1, 'content': [[1587550387000, 24.3], [1587550400000, 24.2], [1587550421000, 24.3], [1587550440000, 24.5], [1587550460000, 24.4], [1587550480000, 24.3], [1587550500000, 24.4], [1587550520000, 24.4], [1587550540000, 24.5], [1587550560000, 24.4], [1587550580000, 24.3], [1587550600000, 24.5], [1587550620000, 24.5], [1587550640000, 24.5], [1587550660000, 24.6], [1587550680000, 24.4], [1587550700000, 24.4], [1587550720000, 24.5], [1587550740000, 24.4], [1587550759000, 24.3], [1587550780000, 24.4], [1587550801000, 24.4], [1587550820000, 24.4], [1587550840000, 24.3], [1587550860000, 24.4], [1587550880000, 24.4], [1587550900000, 24.3], [1587550921000, 24.3], [1587550940000, 24.2], [1587550960000, 24.3], [1587550980000, 24.4], [1587551000000, 24.4], [1587551021000, 24.4], [1587551040000, 24.3], [1587551060000, 24.3], [1587551081000, 24.2], [1587551101000, 24.3], [1587551120000, 24.1], [1587551140000, 24.1], [1587551160000, 24.2], [1587551180000, 24.1], [1587551200000, 24.3], [1587551220000, 24.2], [1587551240000, 24.1], [1587551260000, 24.1], [1587551280000, 24.0], [1587551299000, 24.0], [1587551320000, 24.1], [1587551340000, 24.0], [1587551360000, 24.0], [1587551380000, 24.1], [1587551400000, 24.0], [1587551420000, 23.9], [1587551440000, 23.9], [1587551460000, 24.0], [1587551479000, 24.0], [1587551500000, 23.9], [1587551520000, 23.9], [1587551540000, 23.9], [1587551560000, 23.9], [1587551581000, 23.7], [1587551600000, 23.9], [1587551620000, 23.6], [1587551640000, 23.8], [1587551660000, 23.8], [1587551680000, 23.8], [1587551701000, 24.2], [1587551720000, 24.0], [1587551740000, 24.1], [1587551760000, 23.9], [1587551781000, 23.8], [1587551799000, 23.9], [1587551821000, 23.9], [1587551839000, 24.0], [1587551860000, 23.9], [1587551880000, 23.9], [1587551901000, 23.7], [1587551920000, 23.8], [1587551940000, 23.8], [1587551960000, 23.7], [1587551980000, 23.8], [1587554075000, 23.0], [1587554095000, 22.9], [1587554114000, 23.0], [1587554134000, 23.1], [1587554154000, 23.0], [1587554175000, 23.2], [1587554195000, 23.0], [1587554215000, 22.9], [1587554235000, 22.9], [1587554255000, 22.8], [1587554275000, 23.0], [1587554295000, 22.7], [1587554314000, 22.9], [1587554335000, 22.7], [1587554355000, 22.8], [1587554375000, 22.8], [1587554395000, 22.7], [1587554415000, 23.0], [1587554435000, 22.7], [1587554454000, 22.7], [1587554475000, 22.8], [1587554495000, 22.8], [1587554515000, 22.6], [1587554535000, 22.6], [1587554555000, 22.8], [1587554575000, 22.5], [1587554595000, 22.6], [1587554614000, 22.5], [1587554635000, 22.5], [1587554655000, 22.7], [1587554675000, 22.5], [1587554694000, 22.7], [1587554715000, 22.6], [1587554735000, 22.5], [1587554755000, 22.7], [1587554775000, 22.6], [1587554795000, 22.5], [1587554815000, 22.5], [1587554835000, 22.5], [1587554855000, 22.5], [1587554875000, 22.5], [1587554894000, 22.3], [1587554914000, 22.5], [1587554935000, 22.4], [1587554955000, 22.4], [1587554985000, 22.3], [1587555005000, 22.5], [1587555025000, 22.3], [1587555045000, 22.4], [1587555065000, 22.4], [1587555085000, 22.5], [1587555105000, 22.6], [1587555125000, 22.4], [1587555145000, 22.4], [1587555165000, 22.3], [1587555185000, 22.3], [1587555205000, 22.3], [1587555225000, 22.4], [1587555245000, 22.4], [1587555264000, 22.3], [1587555284000, 22.4], [1587555305000, 22.4], [1587555325000, 22.3], [1587555345000, 22.5], [1587555365000, 22.4], [1587555385000, 22.1], [1587555405000, 22.2], [1587555425000, 22.2], [1587555445000, 22.2], [1587555464000, 22.3], [1587555484000, 22.3], [1587555505000, 22.2], [1587555525000, 22.4], [1587555545000, 22.4], [1587555565000, 22.0], [1587555585000, 22.2], [1587555605000, 22.2], [1587555624000, 22.2], [1587555645000, 22.3], [1587555665000, 22.4], [1587555684000, 22.1], [1587555705000, 22.4], [1587555725000, 22.3], [1587555745000, 22.0], [1587555764000, 22.2], [1587555785000, 22.2], [1587555805000, 22.2], [1587555825000, 22.2], [1587555845000, 22.1], [1587555864000, 22.1], [1587555885000, 22.1], [1587555905000, 22.1], [1587555925000, 22.1], [1587555945000, 22.2], [1587555964000, 22.0], [1587555985000, 22.2], [1587556005000, 22.0], [1587556025000, 22.1], [1587556045000, 21.9], [1587556065000, 22.1], [1587556085000, 21.9], [1587556105000, 22.0], [1587556124000, 21.9], [1587556144000, 21.9], [1587556165000, 22.0], [1587556185000, 22.2], [1587556205000, 21.8], [1587556224000, 22.1], [1587556245000, 22.1], [1587556264000, 22.1], [1587556285000, 22.0], [1587556305000, 22.0], [1587556325000, 21.9], [1587556344000, 22.1], [1587556365000, 22.2], [1587556385000, 22.0], [1587556405000, 21.9], [1587556425000, 21.9], [1587556445000, 21.9], [1587556465000, 22.0], [1587556484000, 22.0], [1587556505000, 21.9], [1587556525000, 21.9], [1587556545000, 21.9], [1587556565000, 22.0], [1587556585000, 21.9], [1587556605000, 21.8], [1587556625000, 21.9], [1587556645000, 22.0], [1587556665000, 21.9], [1587556685000, 22.0], [1587556705000, 21.9], [1587556725000, 21.8], [1587556745000, 21.9], [1587556765000, 21.8], [1587556784000, 21.8]], 'furnace_count': 10, 'area_count': '6', 'door_status': 1, 'target_temp': 1200}})
+2020-05-11 09:59:07,878 - logs… - INFO - 请求码为： 200
+2020-05-11 09:59:07,878 - logs… - INFO - errcode/data  字段存在
+2020-05-11 09:59:07,878 - logs… - INFO - errcode  == 0
+2020-05-11 09:59:07,878 - logs… - INFO - 炉编号和区域编号验证成功
+2020-05-11 09:59:07,878 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,878 - logs… - INFO - 区域时间戳长度符合期望0
+2020-05-11 09:59:07,878 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,878 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=13, tm_sec=7, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,878 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,878 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,878 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,878 - logs… - INFO - 区域时间戳长度符合期望1
+2020-05-11 09:59:07,878 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,878 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=13, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,878 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,878 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,879 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,879 - logs… - INFO - 区域时间戳长度符合期望2
+2020-05-11 09:59:07,879 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,879 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=13, tm_sec=41, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,879 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,879 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,879 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,879 - logs… - INFO - 区域时间戳长度符合期望3
+2020-05-11 09:59:07,879 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,879 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=14, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,879 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,879 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,879 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,879 - logs… - INFO - 区域时间戳长度符合期望4
+2020-05-11 09:59:07,879 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,879 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=14, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,880 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,880 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,880 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,880 - logs… - INFO - 区域时间戳长度符合期望5
+2020-05-11 09:59:07,880 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,880 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=14, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,880 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,880 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,880 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,880 - logs… - INFO - 区域时间戳长度符合期望6
+2020-05-11 09:59:07,880 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,880 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=15, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,880 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,880 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,880 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,880 - logs… - INFO - 区域时间戳长度符合期望7
+2020-05-11 09:59:07,880 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,881 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=15, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,881 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,881 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,881 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,881 - logs… - INFO - 区域时间戳长度符合期望8
+2020-05-11 09:59:07,881 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,881 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=15, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,881 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,881 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,881 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,881 - logs… - INFO - 区域时间戳长度符合期望9
+2020-05-11 09:59:07,881 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,881 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=16, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,881 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,881 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,881 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,881 - logs… - INFO - 区域时间戳长度符合期望10
+2020-05-11 09:59:07,882 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,882 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=16, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,882 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,882 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,882 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,882 - logs… - INFO - 区域时间戳长度符合期望11
+2020-05-11 09:59:07,882 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,882 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=16, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,882 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,882 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,882 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,882 - logs… - INFO - 区域时间戳长度符合期望12
+2020-05-11 09:59:07,882 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,882 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=17, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,882 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,882 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,882 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,883 - logs… - INFO - 区域时间戳长度符合期望13
+2020-05-11 09:59:07,883 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,883 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=17, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,883 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,883 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,883 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,883 - logs… - INFO - 区域时间戳长度符合期望14
+2020-05-11 09:59:07,883 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,883 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=17, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,883 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,883 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,883 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,883 - logs… - INFO - 区域时间戳长度符合期望15
+2020-05-11 09:59:07,883 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,883 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=18, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,883 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,884 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,884 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,884 - logs… - INFO - 区域时间戳长度符合期望16
+2020-05-11 09:59:07,884 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,884 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=18, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,884 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,884 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,884 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,884 - logs… - INFO - 区域时间戳长度符合期望17
+2020-05-11 09:59:07,884 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,884 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=18, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,884 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,884 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,884 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,884 - logs… - INFO - 区域时间戳长度符合期望18
+2020-05-11 09:59:07,884 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,884 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=19, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,885 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,885 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,885 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,885 - logs… - INFO - 区域时间戳长度符合期望19
+2020-05-11 09:59:07,885 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,885 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=19, tm_sec=19, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,885 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,885 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,885 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,885 - logs… - INFO - 区域时间戳长度符合期望20
+2020-05-11 09:59:07,885 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,885 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=19, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,885 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,885 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,885 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,885 - logs… - INFO - 区域时间戳长度符合期望21
+2020-05-11 09:59:07,886 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,886 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=20, tm_sec=1, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,886 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,886 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,886 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,886 - logs… - INFO - 区域时间戳长度符合期望22
+2020-05-11 09:59:07,886 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,886 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=20, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,886 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,886 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,886 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,886 - logs… - INFO - 区域时间戳长度符合期望23
+2020-05-11 09:59:07,886 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,886 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=20, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,886 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,886 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,886 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,887 - logs… - INFO - 区域时间戳长度符合期望24
+2020-05-11 09:59:07,887 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,887 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=21, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,887 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,887 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,887 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,887 - logs… - INFO - 区域时间戳长度符合期望25
+2020-05-11 09:59:07,887 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,887 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=21, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,887 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,887 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,887 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,887 - logs… - INFO - 区域时间戳长度符合期望26
+2020-05-11 09:59:07,887 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,887 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=21, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,887 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,887 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,888 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,888 - logs… - INFO - 区域时间戳长度符合期望27
+2020-05-11 09:59:07,888 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,888 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=22, tm_sec=1, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,888 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,888 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,888 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,888 - logs… - INFO - 区域时间戳长度符合期望28
+2020-05-11 09:59:07,888 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,888 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=22, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,888 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,888 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,888 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,888 - logs… - INFO - 区域时间戳长度符合期望29
+2020-05-11 09:59:07,888 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,888 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=22, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,889 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,889 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,889 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,889 - logs… - INFO - 区域时间戳长度符合期望30
+2020-05-11 09:59:07,889 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,889 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=23, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,889 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,889 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,889 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,889 - logs… - INFO - 区域时间戳长度符合期望31
+2020-05-11 09:59:07,889 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,889 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=23, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,889 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,889 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,889 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,889 - logs… - INFO - 区域时间戳长度符合期望32
+2020-05-11 09:59:07,889 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,890 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=23, tm_sec=41, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,890 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,890 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,890 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,890 - logs… - INFO - 区域时间戳长度符合期望33
+2020-05-11 09:59:07,890 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,890 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=24, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,890 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,890 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,890 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,890 - logs… - INFO - 区域时间戳长度符合期望34
+2020-05-11 09:59:07,890 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,890 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=24, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,890 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,890 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,890 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,890 - logs… - INFO - 区域时间戳长度符合期望35
+2020-05-11 09:59:07,891 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,891 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=24, tm_sec=41, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,891 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,891 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,891 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,891 - logs… - INFO - 区域时间戳长度符合期望36
+2020-05-11 09:59:07,891 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,891 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=25, tm_sec=1, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,891 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,891 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,891 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,891 - logs… - INFO - 区域时间戳长度符合期望37
+2020-05-11 09:59:07,891 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,891 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=25, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,891 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,891 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,891 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,892 - logs… - INFO - 区域时间戳长度符合期望38
+2020-05-11 09:59:07,892 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,892 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=25, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,892 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,892 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,892 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,892 - logs… - INFO - 区域时间戳长度符合期望39
+2020-05-11 09:59:07,892 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,892 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=26, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,892 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,892 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,892 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,892 - logs… - INFO - 区域时间戳长度符合期望40
+2020-05-11 09:59:07,892 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,892 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=26, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,892 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,893 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,893 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,893 - logs… - INFO - 区域时间戳长度符合期望41
+2020-05-11 09:59:07,893 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,893 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=26, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,893 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,893 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,893 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,893 - logs… - INFO - 区域时间戳长度符合期望42
+2020-05-11 09:59:07,893 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,893 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=27, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,893 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,893 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,893 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,893 - logs… - INFO - 区域时间戳长度符合期望43
+2020-05-11 09:59:07,893 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,893 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=27, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,894 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,894 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,894 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,894 - logs… - INFO - 区域时间戳长度符合期望44
+2020-05-11 09:59:07,894 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,894 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=27, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,894 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,894 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,894 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,894 - logs… - INFO - 区域时间戳长度符合期望45
+2020-05-11 09:59:07,894 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,894 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=28, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,894 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,894 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,894 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,894 - logs… - INFO - 区域时间戳长度符合期望46
+2020-05-11 09:59:07,894 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,895 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=28, tm_sec=19, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,895 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,895 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,895 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,895 - logs… - INFO - 区域时间戳长度符合期望47
+2020-05-11 09:59:07,895 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,895 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=28, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,895 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,895 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,895 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,895 - logs… - INFO - 区域时间戳长度符合期望48
+2020-05-11 09:59:07,895 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,895 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=29, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,895 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,895 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,895 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,895 - logs… - INFO - 区域时间戳长度符合期望49
+2020-05-11 09:59:07,896 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,896 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=29, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,896 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,896 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,896 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,896 - logs… - INFO - 区域时间戳长度符合期望50
+2020-05-11 09:59:07,896 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,896 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=29, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,896 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,896 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,896 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,896 - logs… - INFO - 区域时间戳长度符合期望51
+2020-05-11 09:59:07,896 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,896 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=30, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,896 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,896 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,896 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,897 - logs… - INFO - 区域时间戳长度符合期望52
+2020-05-11 09:59:07,897 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,897 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=30, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,897 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,897 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,897 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,897 - logs… - INFO - 区域时间戳长度符合期望53
+2020-05-11 09:59:07,897 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,897 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=30, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,897 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,897 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,897 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,897 - logs… - INFO - 区域时间戳长度符合期望54
+2020-05-11 09:59:07,897 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,897 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=31, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,897 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,898 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,898 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,898 - logs… - INFO - 区域时间戳长度符合期望55
+2020-05-11 09:59:07,898 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,898 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=31, tm_sec=19, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,898 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,898 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,898 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,898 - logs… - INFO - 区域时间戳长度符合期望56
+2020-05-11 09:59:07,898 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,898 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=31, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,898 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,898 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,898 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,898 - logs… - INFO - 区域时间戳长度符合期望57
+2020-05-11 09:59:07,898 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,899 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=32, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,899 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,899 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,899 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,899 - logs… - INFO - 区域时间戳长度符合期望58
+2020-05-11 09:59:07,899 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,899 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=32, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,899 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,899 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,899 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,899 - logs… - INFO - 区域时间戳长度符合期望59
+2020-05-11 09:59:07,899 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,899 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=32, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,899 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,899 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,899 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,899 - logs… - INFO - 区域时间戳长度符合期望60
+2020-05-11 09:59:07,900 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,900 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=33, tm_sec=1, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,900 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,900 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,900 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,900 - logs… - INFO - 区域时间戳长度符合期望61
+2020-05-11 09:59:07,900 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,900 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=33, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,900 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,901 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,901 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,901 - logs… - INFO - 区域时间戳长度符合期望62
+2020-05-11 09:59:07,901 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,901 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=33, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,901 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,901 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,901 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,901 - logs… - INFO - 区域时间戳长度符合期望63
+2020-05-11 09:59:07,901 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,901 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=34, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,901 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,901 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,901 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,901 - logs… - INFO - 区域时间戳长度符合期望64
+2020-05-11 09:59:07,901 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,901 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=34, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,901 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,901 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,901 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,901 - logs… - INFO - 区域时间戳长度符合期望65
+2020-05-11 09:59:07,901 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,901 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=34, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,901 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,902 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,902 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,902 - logs… - INFO - 区域时间戳长度符合期望66
+2020-05-11 09:59:07,902 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,902 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=35, tm_sec=1, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,902 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,902 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,902 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,902 - logs… - INFO - 区域时间戳长度符合期望67
+2020-05-11 09:59:07,902 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,902 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=35, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,902 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,902 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,902 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,902 - logs… - INFO - 区域时间戳长度符合期望68
+2020-05-11 09:59:07,903 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,903 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=35, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,903 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,903 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,903 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,903 - logs… - INFO - 区域时间戳长度符合期望69
+2020-05-11 09:59:07,903 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,903 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=36, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,903 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,903 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,903 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,903 - logs… - INFO - 区域时间戳长度符合期望70
+2020-05-11 09:59:07,903 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,903 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=36, tm_sec=21, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,903 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,903 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,904 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,904 - logs… - INFO - 区域时间戳长度符合期望71
+2020-05-11 09:59:07,904 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,904 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=36, tm_sec=39, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,904 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,904 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,904 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,904 - logs… - INFO - 区域时间戳长度符合期望72
+2020-05-11 09:59:07,904 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,905 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=37, tm_sec=1, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,905 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,905 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,905 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,905 - logs… - INFO - 区域时间戳长度符合期望73
+2020-05-11 09:59:07,905 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,905 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=37, tm_sec=19, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,905 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,905 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,905 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,905 - logs… - INFO - 区域时间戳长度符合期望74
+2020-05-11 09:59:07,905 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,905 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=37, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,905 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,905 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,905 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,905 - logs… - INFO - 区域时间戳长度符合期望75
+2020-05-11 09:59:07,905 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,905 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=38, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,905 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,905 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,905 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,905 - logs… - INFO - 区域时间戳长度符合期望76
+2020-05-11 09:59:07,906 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,906 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=38, tm_sec=21, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,906 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,906 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,906 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,906 - logs… - INFO - 区域时间戳长度符合期望77
+2020-05-11 09:59:07,906 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,906 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=38, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,906 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,907 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,907 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,907 - logs… - INFO - 区域时间戳长度符合期望78
+2020-05-11 09:59:07,907 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,907 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=39, tm_sec=0, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,907 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,907 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,907 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,907 - logs… - INFO - 区域时间戳长度符合期望79
+2020-05-11 09:59:07,907 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,907 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=39, tm_sec=20, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,907 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,907 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,907 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,907 - logs… - INFO - 区域时间戳长度符合期望80
+2020-05-11 09:59:07,907 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,908 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=18, tm_min=39, tm_sec=40, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,908 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,908 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,908 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,908 - logs… - INFO - 区域时间戳长度符合期望81
+2020-05-11 09:59:07,908 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,908 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=14, tm_sec=35, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,908 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,908 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,908 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,908 - logs… - INFO - 区域时间戳长度符合期望82
+2020-05-11 09:59:07,908 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,908 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=14, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,908 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,908 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,908 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,909 - logs… - INFO - 区域时间戳长度符合期望83
+2020-05-11 09:59:07,909 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,909 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=15, tm_sec=14, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,909 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,909 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,909 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,909 - logs… - INFO - 区域时间戳长度符合期望84
+2020-05-11 09:59:07,909 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,909 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=15, tm_sec=34, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,909 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,909 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,909 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,909 - logs… - INFO - 区域时间戳长度符合期望85
+2020-05-11 09:59:07,909 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,909 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=15, tm_sec=54, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,909 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,910 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,910 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,910 - logs… - INFO - 区域时间戳长度符合期望86
+2020-05-11 09:59:07,910 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,910 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=16, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,910 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,910 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,910 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,910 - logs… - INFO - 区域时间戳长度符合期望87
+2020-05-11 09:59:07,910 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,910 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=16, tm_sec=35, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,910 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,910 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,910 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,910 - logs… - INFO - 区域时间戳长度符合期望88
+2020-05-11 09:59:07,910 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,910 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=16, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,911 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,911 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,911 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,911 - logs… - INFO - 区域时间戳长度符合期望89
+2020-05-11 09:59:07,911 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,911 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=17, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,911 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,911 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,911 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,911 - logs… - INFO - 区域时间戳长度符合期望90
+2020-05-11 09:59:07,911 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,911 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=17, tm_sec=35, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,911 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,911 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,911 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,911 - logs… - INFO - 区域时间戳长度符合期望91
+2020-05-11 09:59:07,912 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,912 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=17, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,912 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,912 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,912 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,912 - logs… - INFO - 区域时间戳长度符合期望92
+2020-05-11 09:59:07,912 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,912 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=18, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,912 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,912 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,912 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,912 - logs… - INFO - 区域时间戳长度符合期望93
+2020-05-11 09:59:07,912 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,912 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=18, tm_sec=34, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,912 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,912 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,912 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,913 - logs… - INFO - 区域时间戳长度符合期望94
+2020-05-11 09:59:07,913 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,913 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=18, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,913 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,913 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,913 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,913 - logs… - INFO - 区域时间戳长度符合期望95
+2020-05-11 09:59:07,913 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,913 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=19, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,913 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,913 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,913 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,913 - logs… - INFO - 区域时间戳长度符合期望96
+2020-05-11 09:59:07,913 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,913 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=19, tm_sec=35, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,914 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,914 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,914 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,914 - logs… - INFO - 区域时间戳长度符合期望97
+2020-05-11 09:59:07,914 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,914 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=19, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,914 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,914 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,914 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,914 - logs… - INFO - 区域时间戳长度符合期望98
+2020-05-11 09:59:07,914 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,914 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=20, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,914 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,914 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,914 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,914 - logs… - INFO - 区域时间戳长度符合期望99
+2020-05-11 09:59:07,914 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,915 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=20, tm_sec=35, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,915 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,915 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,915 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,915 - logs… - INFO - 区域时间戳长度符合期望100
+2020-05-11 09:59:07,915 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,915 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=20, tm_sec=54, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,915 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,915 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,915 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,915 - logs… - INFO - 区域时间戳长度符合期望101
+2020-05-11 09:59:07,915 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,915 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=21, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,915 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,915 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,915 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,915 - logs… - INFO - 区域时间戳长度符合期望102
+2020-05-11 09:59:07,916 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,916 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=21, tm_sec=35, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,916 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,916 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,916 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,916 - logs… - INFO - 区域时间戳长度符合期望103
+2020-05-11 09:59:07,916 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,916 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=21, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,916 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,916 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,916 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,916 - logs… - INFO - 区域时间戳长度符合期望104
+2020-05-11 09:59:07,916 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,916 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=22, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,916 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,916 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,916 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,917 - logs… - INFO - 区域时间戳长度符合期望105
+2020-05-11 09:59:07,917 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,917 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=22, tm_sec=35, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,917 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,917 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,917 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,917 - logs… - INFO - 区域时间戳长度符合期望106
+2020-05-11 09:59:07,917 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,917 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=22, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,917 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,917 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,917 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,917 - logs… - INFO - 区域时间戳长度符合期望107
+2020-05-11 09:59:07,917 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,917 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=23, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,917 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,917 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,918 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,918 - logs… - INFO - 区域时间戳长度符合期望108
+2020-05-11 09:59:07,918 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,918 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=23, tm_sec=34, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,918 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,918 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,918 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,918 - logs… - INFO - 区域时间戳长度符合期望109
+2020-05-11 09:59:07,918 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,918 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=23, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,918 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,918 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,918 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,918 - logs… - INFO - 区域时间戳长度符合期望110
+2020-05-11 09:59:07,918 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,918 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=24, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,918 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,919 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,919 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,919 - logs… - INFO - 区域时间戳长度符合期望111
+2020-05-11 09:59:07,919 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,919 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=24, tm_sec=35, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,919 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,919 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,919 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,919 - logs… - INFO - 区域时间戳长度符合期望112
+2020-05-11 09:59:07,919 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,919 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=24, tm_sec=54, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,919 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,919 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,919 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,919 - logs… - INFO - 区域时间戳长度符合期望113
+2020-05-11 09:59:07,919 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,919 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=25, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,920 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,920 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,920 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,920 - logs… - INFO - 区域时间戳长度符合期望114
+2020-05-11 09:59:07,920 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,920 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=25, tm_sec=35, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,920 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,920 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,920 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,920 - logs… - INFO - 区域时间戳长度符合期望115
+2020-05-11 09:59:07,920 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,920 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=25, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,920 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,920 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,920 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,920 - logs… - INFO - 区域时间戳长度符合期望116
+2020-05-11 09:59:07,920 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,920 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=26, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,921 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,921 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,921 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,921 - logs… - INFO - 区域时间戳长度符合期望117
+2020-05-11 09:59:07,921 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,921 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=26, tm_sec=35, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,921 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,921 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,921 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,921 - logs… - INFO - 区域时间戳长度符合期望118
+2020-05-11 09:59:07,921 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,921 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=26, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,921 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,921 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,921 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,921 - logs… - INFO - 区域时间戳长度符合期望119
+2020-05-11 09:59:07,921 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,922 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=27, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,922 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,922 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,922 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,922 - logs… - INFO - 区域时间戳长度符合期望120
+2020-05-11 09:59:07,922 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,922 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=27, tm_sec=35, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,922 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,922 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,922 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,922 - logs… - INFO - 区域时间戳长度符合期望121
+2020-05-11 09:59:07,922 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,922 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=27, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,922 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,922 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,922 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,922 - logs… - INFO - 区域时间戳长度符合期望122
+2020-05-11 09:59:07,923 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,923 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=28, tm_sec=14, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,923 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,923 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,923 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,923 - logs… - INFO - 区域时间戳长度符合期望123
+2020-05-11 09:59:07,923 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,923 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=28, tm_sec=34, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,923 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,923 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,923 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,923 - logs… - INFO - 区域时间戳长度符合期望124
+2020-05-11 09:59:07,923 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,923 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=28, tm_sec=55, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,923 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,923 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,923 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,923 - logs… - INFO - 区域时间戳长度符合期望125
+2020-05-11 09:59:07,924 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,924 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=29, tm_sec=15, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,924 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,924 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,924 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,924 - logs… - INFO - 区域时间戳长度符合期望126
+2020-05-11 09:59:07,924 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,924 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=29, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,924 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,924 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,924 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,924 - logs… - INFO - 区域时间戳长度符合期望127
+2020-05-11 09:59:07,924 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,924 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=30, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,924 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,924 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,924 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,925 - logs… - INFO - 区域时间戳长度符合期望128
+2020-05-11 09:59:07,925 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,925 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=30, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,925 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,925 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,925 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,925 - logs… - INFO - 区域时间戳长度符合期望129
+2020-05-11 09:59:07,925 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,925 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=30, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,925 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,925 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,925 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,925 - logs… - INFO - 区域时间戳长度符合期望130
+2020-05-11 09:59:07,925 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,925 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=31, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,925 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,925 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,926 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,926 - logs… - INFO - 区域时间戳长度符合期望131
+2020-05-11 09:59:07,926 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,926 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=31, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,926 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,926 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,926 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,926 - logs… - INFO - 区域时间戳长度符合期望132
+2020-05-11 09:59:07,926 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,926 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=31, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,926 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,926 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,926 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,926 - logs… - INFO - 区域时间戳长度符合期望133
+2020-05-11 09:59:07,926 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,926 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=32, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,926 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,926 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,927 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,927 - logs… - INFO - 区域时间戳长度符合期望134
+2020-05-11 09:59:07,927 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,927 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=32, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,927 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,927 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,927 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,927 - logs… - INFO - 区域时间戳长度符合期望135
+2020-05-11 09:59:07,927 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,927 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=32, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,927 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,927 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,927 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,927 - logs… - INFO - 区域时间戳长度符合期望136
+2020-05-11 09:59:07,927 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,927 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=33, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,927 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,928 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,928 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,928 - logs… - INFO - 区域时间戳长度符合期望137
+2020-05-11 09:59:07,928 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,928 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=33, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,928 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,928 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,928 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,928 - logs… - INFO - 区域时间戳长度符合期望138
+2020-05-11 09:59:07,928 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,928 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=33, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,928 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,928 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,928 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,928 - logs… - INFO - 区域时间戳长度符合期望139
+2020-05-11 09:59:07,928 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,928 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=34, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,929 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,929 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,929 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,929 - logs… - INFO - 区域时间戳长度符合期望140
+2020-05-11 09:59:07,929 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,929 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=34, tm_sec=24, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,929 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,929 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,929 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,929 - logs… - INFO - 区域时间戳长度符合期望141
+2020-05-11 09:59:07,929 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,929 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=34, tm_sec=44, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,929 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,929 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,929 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,929 - logs… - INFO - 区域时间戳长度符合期望142
+2020-05-11 09:59:07,929 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,929 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=35, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,930 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,930 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,930 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,930 - logs… - INFO - 区域时间戳长度符合期望143
+2020-05-11 09:59:07,930 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,930 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=35, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,930 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,930 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,930 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,930 - logs… - INFO - 区域时间戳长度符合期望144
+2020-05-11 09:59:07,930 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,930 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=35, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,930 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,930 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,930 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,930 - logs… - INFO - 区域时间戳长度符合期望145
+2020-05-11 09:59:07,930 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,931 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=36, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,931 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,931 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,931 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,931 - logs… - INFO - 区域时间戳长度符合期望146
+2020-05-11 09:59:07,931 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,931 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=36, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,931 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,931 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,931 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,931 - logs… - INFO - 区域时间戳长度符合期望147
+2020-05-11 09:59:07,931 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,931 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=36, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,931 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,931 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,931 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,931 - logs… - INFO - 区域时间戳长度符合期望148
+2020-05-11 09:59:07,932 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,932 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=37, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,932 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,932 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,932 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,932 - logs… - INFO - 区域时间戳长度符合期望149
+2020-05-11 09:59:07,932 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,932 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=37, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,932 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,932 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,932 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,932 - logs… - INFO - 区域时间戳长度符合期望150
+2020-05-11 09:59:07,932 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,932 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=37, tm_sec=44, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,932 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,932 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,933 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,933 - logs… - INFO - 区域时间戳长度符合期望151
+2020-05-11 09:59:07,933 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,933 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=38, tm_sec=4, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,933 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,933 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,933 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,933 - logs… - INFO - 区域时间戳长度符合期望152
+2020-05-11 09:59:07,933 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,933 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=38, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,933 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,933 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,933 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,933 - logs… - INFO - 区域时间戳长度符合期望153
+2020-05-11 09:59:07,933 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,933 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=38, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,933 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,934 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,934 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,934 - logs… - INFO - 区域时间戳长度符合期望154
+2020-05-11 09:59:07,934 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,934 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=39, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,934 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,934 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,934 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,934 - logs… - INFO - 区域时间戳长度符合期望155
+2020-05-11 09:59:07,934 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,934 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=39, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,934 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,934 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,934 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,934 - logs… - INFO - 区域时间戳长度符合期望156
+2020-05-11 09:59:07,934 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,934 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=39, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,935 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,935 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,935 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,935 - logs… - INFO - 区域时间戳长度符合期望157
+2020-05-11 09:59:07,935 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,935 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=40, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,935 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,935 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,935 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,935 - logs… - INFO - 区域时间戳长度符合期望158
+2020-05-11 09:59:07,935 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,935 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=40, tm_sec=24, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,935 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,935 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,935 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,935 - logs… - INFO - 区域时间戳长度符合期望159
+2020-05-11 09:59:07,935 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,935 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=40, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,936 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,936 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,936 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,936 - logs… - INFO - 区域时间戳长度符合期望160
+2020-05-11 09:59:07,936 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,936 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=41, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,936 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,936 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,936 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,936 - logs… - INFO - 区域时间戳长度符合期望161
+2020-05-11 09:59:07,936 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,936 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=41, tm_sec=24, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,936 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,936 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,936 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,936 - logs… - INFO - 区域时间戳长度符合期望162
+2020-05-11 09:59:07,937 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,937 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=41, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,937 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,937 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,937 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,937 - logs… - INFO - 区域时间戳长度符合期望163
+2020-05-11 09:59:07,937 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,937 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=42, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,937 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,937 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,937 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,937 - logs… - INFO - 区域时间戳长度符合期望164
+2020-05-11 09:59:07,937 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,937 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=42, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,937 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,937 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,937 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,937 - logs… - INFO - 区域时间戳长度符合期望165
+2020-05-11 09:59:07,938 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,938 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=42, tm_sec=44, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,938 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,938 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,938 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,938 - logs… - INFO - 区域时间戳长度符合期望166
+2020-05-11 09:59:07,938 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,938 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=43, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,938 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,938 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,938 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,938 - logs… - INFO - 区域时间戳长度符合期望167
+2020-05-11 09:59:07,938 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,938 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=43, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,938 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,938 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,938 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,939 - logs… - INFO - 区域时间戳长度符合期望168
+2020-05-11 09:59:07,939 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,939 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=43, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,939 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,939 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,939 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,939 - logs… - INFO - 区域时间戳长度符合期望169
+2020-05-11 09:59:07,939 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,939 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=44, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,939 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,939 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,939 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,939 - logs… - INFO - 区域时间戳长度符合期望170
+2020-05-11 09:59:07,939 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,939 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=44, tm_sec=24, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,939 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,939 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,940 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,940 - logs… - INFO - 区域时间戳长度符合期望171
+2020-05-11 09:59:07,940 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,940 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=44, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,940 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,940 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,940 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,940 - logs… - INFO - 区域时间戳长度符合期望172
+2020-05-11 09:59:07,940 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,940 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=45, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,940 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,940 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,940 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,940 - logs… - INFO - 区域时间戳长度符合期望173
+2020-05-11 09:59:07,940 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,940 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=45, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,940 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,941 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,941 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,941 - logs… - INFO - 区域时间戳长度符合期望174
+2020-05-11 09:59:07,941 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,941 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=45, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,941 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,941 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,941 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,941 - logs… - INFO - 区域时间戳长度符合期望175
+2020-05-11 09:59:07,941 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,941 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=46, tm_sec=4, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,941 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,941 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,941 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,941 - logs… - INFO - 区域时间戳长度符合期望176
+2020-05-11 09:59:07,941 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,941 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=46, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,941 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,942 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,942 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,942 - logs… - INFO - 区域时间戳长度符合期望177
+2020-05-11 09:59:07,942 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,942 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=46, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,942 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,942 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,942 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,942 - logs… - INFO - 区域时间戳长度符合期望178
+2020-05-11 09:59:07,942 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,942 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=47, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,942 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,942 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,942 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,942 - logs… - INFO - 区域时间戳长度符合期望179
+2020-05-11 09:59:07,942 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,942 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=47, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,943 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,943 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,943 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,943 - logs… - INFO - 区域时间戳长度符合期望180
+2020-05-11 09:59:07,943 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,943 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=47, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,943 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,943 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,943 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,943 - logs… - INFO - 区域时间戳长度符合期望181
+2020-05-11 09:59:07,943 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,943 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=48, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,943 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,943 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,943 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,943 - logs… - INFO - 区域时间戳长度符合期望182
+2020-05-11 09:59:07,943 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,944 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=48, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,944 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,944 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,944 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,944 - logs… - INFO - 区域时间戳长度符合期望183
+2020-05-11 09:59:07,944 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,944 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=48, tm_sec=44, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,944 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,944 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,944 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,944 - logs… - INFO - 区域时间戳长度符合期望184
+2020-05-11 09:59:07,944 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,944 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=49, tm_sec=4, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,944 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,944 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,944 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,944 - logs… - INFO - 区域时间戳长度符合期望185
+2020-05-11 09:59:07,945 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,945 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=49, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,945 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,945 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,945 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,945 - logs… - INFO - 区域时间戳长度符合期望186
+2020-05-11 09:59:07,945 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,945 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=49, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,945 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,945 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,945 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,945 - logs… - INFO - 区域时间戳长度符合期望187
+2020-05-11 09:59:07,945 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,945 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=50, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,945 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,945 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,946 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,946 - logs… - INFO - 区域时间戳长度符合期望188
+2020-05-11 09:59:07,946 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,946 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=50, tm_sec=24, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,946 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,946 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,946 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,946 - logs… - INFO - 区域时间戳长度符合期望189
+2020-05-11 09:59:07,946 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,946 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=50, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,946 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,946 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,946 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,946 - logs… - INFO - 区域时间戳长度符合期望190
+2020-05-11 09:59:07,946 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,946 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=51, tm_sec=4, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,947 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,947 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,947 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,947 - logs… - INFO - 区域时间戳长度符合期望191
+2020-05-11 09:59:07,947 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,947 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=51, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,947 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,947 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,947 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,947 - logs… - INFO - 区域时间戳长度符合期望192
+2020-05-11 09:59:07,947 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,947 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=51, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,947 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,947 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,947 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,947 - logs… - INFO - 区域时间戳长度符合期望193
+2020-05-11 09:59:07,947 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,948 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=52, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,948 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,948 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,948 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,948 - logs… - INFO - 区域时间戳长度符合期望194
+2020-05-11 09:59:07,948 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,948 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=52, tm_sec=24, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,948 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,948 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,948 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,948 - logs… - INFO - 区域时间戳长度符合期望195
+2020-05-11 09:59:07,948 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,948 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=52, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,948 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,948 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,948 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,949 - logs… - INFO - 区域时间戳长度符合期望196
+2020-05-11 09:59:07,949 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,949 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=53, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,949 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,949 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,949 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,949 - logs… - INFO - 区域时间戳长度符合期望197
+2020-05-11 09:59:07,949 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,949 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=53, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,949 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,949 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,949 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,949 - logs… - INFO - 区域时间戳长度符合期望198
+2020-05-11 09:59:07,949 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,949 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=53, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,949 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,949 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,950 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,950 - logs… - INFO - 区域时间戳长度符合期望199
+2020-05-11 09:59:07,950 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,950 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=54, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,950 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,950 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,950 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,950 - logs… - INFO - 区域时间戳长度符合期望200
+2020-05-11 09:59:07,950 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,950 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=54, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,950 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,950 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,950 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,950 - logs… - INFO - 区域时间戳长度符合期望201
+2020-05-11 09:59:07,950 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,950 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=54, tm_sec=44, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,950 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,951 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,951 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,951 - logs… - INFO - 区域时间戳长度符合期望202
+2020-05-11 09:59:07,951 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,951 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=55, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,951 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,951 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,951 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,951 - logs… - INFO - 区域时间戳长度符合期望203
+2020-05-11 09:59:07,951 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,951 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=55, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,951 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,951 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,951 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,951 - logs… - INFO - 区域时间戳长度符合期望204
+2020-05-11 09:59:07,951 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,952 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=55, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,952 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,952 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,952 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,952 - logs… - INFO - 区域时间戳长度符合期望205
+2020-05-11 09:59:07,952 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,952 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=56, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,952 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,952 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,952 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,952 - logs… - INFO - 区域时间戳长度符合期望206
+2020-05-11 09:59:07,952 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,952 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=56, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,953 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,953 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,953 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,953 - logs… - INFO - 区域时间戳长度符合期望207
+2020-05-11 09:59:07,953 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,953 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=56, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,953 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,953 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,953 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,953 - logs… - INFO - 区域时间戳长度符合期望208
+2020-05-11 09:59:07,953 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,953 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=57, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,953 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,953 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,953 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,953 - logs… - INFO - 区域时间戳长度符合期望209
+2020-05-11 09:59:07,953 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,954 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=57, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,954 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,954 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,954 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,954 - logs… - INFO - 区域时间戳长度符合期望210
+2020-05-11 09:59:07,954 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,954 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=57, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,954 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,954 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,954 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,954 - logs… - INFO - 区域时间戳长度符合期望211
+2020-05-11 09:59:07,954 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,954 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=58, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,954 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,954 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,954 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,954 - logs… - INFO - 区域时间戳长度符合期望212
+2020-05-11 09:59:07,955 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,955 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=58, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,955 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,955 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,955 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,955 - logs… - INFO - 区域时间戳长度符合期望213
+2020-05-11 09:59:07,955 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,955 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=58, tm_sec=45, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,955 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,955 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,955 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,955 - logs… - INFO - 区域时间戳长度符合期望214
+2020-05-11 09:59:07,955 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,955 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=59, tm_sec=5, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,955 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,955 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,955 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,956 - logs… - INFO - 区域时间戳长度符合期望215
+2020-05-11 09:59:07,956 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,956 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=59, tm_sec=25, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,956 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,956 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,956 - logs… - INFO - 温度时间列表长度为2
+2020-05-11 09:59:07,956 - logs… - INFO - 区域时间戳长度符合期望216
+2020-05-11 09:59:07,956 - logs… - INFO - 区域温度和时间 type 符合期望 
+2020-05-11 09:59:07,956 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=22, tm_hour=19, tm_min=59, tm_sec=44, tm_wday=2, tm_yday=113, tm_isdst=0)
+2020-05-11 09:59:07,956 - logs… - INFO - <class 'time.struct_time'>
+2020-05-11 09:59:07,956 - logs… - INFO - 时间戳符合期望
+2020-05-11 09:59:07,956 - logs… - INFO - 接口测试用例：test_api_04_13.py  ========= test  end ========

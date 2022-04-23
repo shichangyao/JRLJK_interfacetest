@@ -1,0 +1,6 @@
+2020-05-07 15:31:56,757 - logs… - INFO - 接口测试用例：test_api_01_04.py  ====== test  start ========
+2020-05-07 15:31:56,771 - logs… - INFO - (200, {'errcode': 101, 'errmsg': '不存在的炉子编号11!'})
+2020-05-07 15:31:56,771 - logs… - INFO - 请求码为： 200
+2020-05-07 15:31:56,772 - logs… - INFO - errcode , errmsg 字段存在
+2020-05-07 15:31:56,772 - logs… - INFO - self.data_text[1]['errcode/errmsg'] ,内容效验成功
+2020-05-07 15:31:56,773 - logs… - INFO - 接口测试用例：test_api_01_04.py  ====== test  end ========

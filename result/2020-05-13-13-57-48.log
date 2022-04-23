@@ -1,0 +1,30 @@
+2020-05-13 13:57:48,406 - logs… - INFO - D:\JRLJK_interfacetest
+2020-05-13 13:57:48,406 - logs… - INFO - resultPathD:\JRLJK_interfacetest\report\report2020-05-13-13-57-48.html
+2020-05-13 13:57:48,406 - logs… - INFO - caseListFileD:\JRLJK_interfacetest\caselist.txt
+2020-05-13 13:57:48,406 - logs… - INFO - caseList[]
+2020-05-13 13:57:48,475 - logs… - INFO - suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<JRLJK_page.test_api_01_01.Test_api_01_01 testMethod=test_Case>]>]>]>]
+2020-05-13 13:57:48,482 - logs… - INFO - suite_module:[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<JRLJK_page.test_api_01_01.Test_api_01_01 testMethod=test_Case>]>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<JRLJK_page.test_api_01_02.Test_api_01_02 testMethod=test_Case>]>]>]>]
+2020-05-13 13:57:48,482 - logs… - INFO - try
+2020-05-13 13:57:48,482 - logs… - INFO - <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<JRLJK_page.test_api_01_01.Test_api_01_01 testMethod=test_Case>]>]>, <unittest.suite.TestSuite tests=[]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<JRLJK_page.test_api_01_02.Test_api_01_02 testMethod=test_Case>]>]>]>
+2020-05-13 13:57:48,483 - logs… - INFO - if-suit
+2020-05-13 13:57:48,483 - logs… - INFO - <common.HTMLTestRunner.HTMLTestRunner object at 0x0000016964D90748>
+2020-05-13 13:57:48,483 - logs… - INFO - 接口测试用例：test_api_01_01.py  ====== test  starts ========
+2020-05-13 13:57:48,528 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': '2', 'areaNo': '5', 'status': 1, 'content': [[1589349469000, 0]], 'door_status': 1}})
+2020-05-13 13:57:48,528 - logs… - INFO - code：200
+2020-05-13 13:57:48,528 - logs… - INFO - errcode：0
+2020-05-13 13:57:48,528 - logs… - INFO - furnaceNo：2
+2020-05-13 13:57:48,528 - logs… - INFO - areaNo：5
+2020-05-13 13:57:48,528 - logs… - INFO - 温度和时间不为空
+2020-05-13 13:57:48,529 - logs… - INFO - len(temp_list) =2
+2020-05-13 13:57:48,529 - logs… - INFO - 时间戳长度符合期望
+2020-05-13 13:57:48,529 - logs… - INFO - type 符合期望 
+2020-05-13 13:57:48,529 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=5, tm_mday=13, tm_hour=13, tm_min=57, tm_sec=49, tm_wday=2, tm_yday=134, tm_isdst=0)
+2020-05-13 13:57:48,529 - logs… - INFO - <class 'time.struct_time'>
+2020-05-13 13:57:48,529 - logs… - INFO - 时间戳符合期望
+2020-05-13 13:57:48,529 - logs… - INFO - 接口测试用例：test_api_01_01.py  ====== test  end ========
+2020-05-13 13:57:48,529 - logs… - INFO - 接口测试用例：test_api_01_02.py  ====== test  start ========
+2020-05-13 13:57:48,541 - logs… - INFO - (200, {'errcode': 101, 'errmsg': '不存在的炉子编号11!'})
+2020-05-13 13:57:48,541 - logs… - INFO - 请求码为： 200
+2020-05-13 13:57:48,541 - logs… - INFO - errcode errmsg 字段存在
+2020-05-13 13:57:48,541 - logs… - INFO - errcode = 101, errmsg == 不存在的炉子编号11! 
+2020-05-13 13:57:48,541 - logs… - INFO - 接口测试用例：test_api_01_02.py  ====== test  end ========

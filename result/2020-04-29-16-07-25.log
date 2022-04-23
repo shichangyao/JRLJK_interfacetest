@@ -1,0 +1,14 @@
+2020-04-29 16:07:25,289 - logs… - INFO - 接口测试用例：test_api_01_01.py  ====== test  starts ========
+2020-04-29 16:07:25,354 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': '2', 'areaNo': '5', 'status': 1, 'content': [[1588147647000, 0]], 'door_status': 1}})
+2020-04-29 16:07:25,354 - logs… - INFO - code：200
+2020-04-29 16:07:25,354 - logs… - INFO - errcode：0
+2020-04-29 16:07:25,354 - logs… - INFO - furnaceNo：2
+2020-04-29 16:07:25,354 - logs… - INFO - areaNo：5
+2020-04-29 16:07:25,354 - logs… - INFO - content[0] ! = []
+2020-04-29 16:07:25,354 - logs… - INFO - len(content[0]) == 2
+2020-04-29 16:07:25,355 - logs… - INFO - len(content[0][0]) == 13
+2020-04-29 16:07:25,355 - logs… - INFO - type 符合期望 
+2020-04-29 16:07:25,355 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=4, tm_mday=29, tm_hour=16, tm_min=7, tm_sec=27, tm_wday=2, tm_yday=120, tm_isdst=0)
+2020-04-29 16:07:25,355 - logs… - INFO - <class 'time.struct_time'>
+2020-04-29 16:07:25,355 - logs… - INFO - time_local+000后为 类型为毫秒级时间戳
+2020-04-29 16:07:25,355 - logs… - INFO - 接口测试用例：test_api_01_01.py  ====== test  end ========

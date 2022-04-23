@@ -1,0 +1,15 @@
+2020-05-07 20:12:09,946 - logs… - INFO - 接口测试用例：test_api_03_01.py  ====== test  start ========
+2020-05-07 20:12:10,052 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': '2', 'content': [1054.0, 984.0, 960.0, 987.0, 1163.0, 835.0], 'art_total_time': '1小时31分钟', 'art_spent_time': '54分钟', 'art_left_time': '12小时45分钟', 'art_period': '1段', 'period_spent_time': '22分钟', 'period_last_time': '5小时2分钟', 'furnace_count': 10, 'craft_status': '正在运行', 'heat_status': '升温'}})
+2020-05-07 20:12:10,052 - logs… - INFO - 请求码为： 200
+2020-05-07 20:12:10,053 - logs… - INFO - errcode/data  字段存在
+2020-05-07 20:12:10,053 - logs… - INFO - 字段效验成功
+2020-05-07 20:12:10,128 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': 2, 'areaNo': '1', 'status': 1, 'content': [], 'furnace_count': 10, 'area_count': '6', 'door_status': 1, 'target_temp': 1200}})
+2020-05-07 20:12:10,128 - logs… - INFO - 所获取指定炉的炉区域为： 6
+2020-05-07 20:12:10,128 - logs… - INFO - 显示对应区域数时间温度数据
+2020-05-07 20:12:10,129 - logs… - INFO - 温度数据类型正确
+2020-05-07 20:12:10,129 - logs… - INFO - 温度数据类型正确
+2020-05-07 20:12:10,129 - logs… - INFO - 温度数据类型正确
+2020-05-07 20:12:10,129 - logs… - INFO - 温度数据类型正确
+2020-05-07 20:12:10,129 - logs… - INFO - 温度数据类型正确
+2020-05-07 20:12:10,129 - logs… - INFO - 温度数据类型正确
+2020-05-07 20:12:10,129 - logs… - INFO - 工艺参数字段效验均不为空

@@ -1,0 +1,14 @@
+2020-05-07 11:31:43,469 - logs… - INFO - 接口测试用例：test_api_01_01.py  ====== test  starts ========
+2020-05-07 11:31:43,552 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': '2', 'areaNo': '5', 'status': 1, 'content': [[1588822299000, 0]], 'door_status': 1}})
+2020-05-07 11:31:43,553 - logs… - INFO - code：200
+2020-05-07 11:31:43,553 - logs… - INFO - errcode：0
+2020-05-07 11:31:43,554 - logs… - INFO - furnaceNo：2
+2020-05-07 11:31:43,554 - logs… - INFO - areaNo：5
+2020-05-07 11:31:43,554 - logs… - INFO - 温度和时间不为空
+2020-05-07 11:31:43,554 - logs… - INFO - content第一个列表长度 符合期望
+2020-05-07 11:31:43,555 - logs… - INFO - 时间戳长度符合期望
+2020-05-07 11:31:43,556 - logs… - INFO - type 符合期望 
+2020-05-07 11:31:43,556 - logs… - INFO - time.struct_time(tm_year=2020, tm_mon=5, tm_mday=7, tm_hour=11, tm_min=31, tm_sec=39, tm_wday=3, tm_yday=128, tm_isdst=0)
+2020-05-07 11:31:43,556 - logs… - INFO - <class 'time.struct_time'>
+2020-05-07 11:31:43,556 - logs… - INFO - 时间戳符合期望
+2020-05-07 11:31:43,557 - logs… - INFO - 接口测试用例：test_api_01_01.py  ====== test  end ========

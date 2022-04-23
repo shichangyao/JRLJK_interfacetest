@@ -1,0 +1,2 @@
+2020-05-09 10:46:29,288 - logs… - INFO - 接口测试用例：test_api_01_01.py  ====== test  starts ========
+2020-05-09 10:46:30,736 - logs… - INFO - get请求错误，错误原因：Expecting value: line 1 column 1 (char 0)

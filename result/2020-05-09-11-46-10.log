@@ -1,0 +1,4 @@
+2020-05-09 11:46:10,675 - logs… - INFO - 接口测试用例：test_api_04_05.py  ======== test  start ========
+2020-05-09 11:46:10,676 - logs… - INFO - http://10.168.2.104:8000/api/details/
+2020-05-09 11:46:10,677 - logs… - INFO - {'furnaceNo': 3, 'areaNo': 4, 'dur_time': 'aaa'}
+2020-05-09 11:46:10,856 - logs… - INFO - get请求错误，错误原因：Expecting value: line 1 column 1 (char 0)

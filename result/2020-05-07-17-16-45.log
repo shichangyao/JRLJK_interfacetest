@@ -1,0 +1,1 @@
+2020-05-07 17:16:45,533 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': 1, 'areaNo': '1', 'status': 1, 'content': [], 'furnace_count': 10, 'area_count': '6', 'door_status': 1, 'target_temp': 1200}})

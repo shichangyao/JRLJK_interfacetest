@@ -1,0 +1,6 @@
+2020-05-07 15:30:11,705 - logs… - INFO - 接口测试用例：test_api_01_03.py  ====== test  start ========
+2020-05-07 15:30:11,721 - logs… - INFO - (200, {'errcode': 101, 'errmsg': '区域8在4号炉中不存在!'})
+2020-05-07 15:30:11,721 - logs… - INFO - 请求码为： 200
+2020-05-07 15:30:11,721 - logs… - INFO - errcode，errmsg 字段存在
+2020-05-07 15:30:11,721 - logs… - INFO - self.data_text[1]['errcode/errmsg'] ,内容效验成功
+2020-05-07 15:30:11,721 - logs… - INFO - 接口测试用例：test_api_01_03.py  ====== test  end ========

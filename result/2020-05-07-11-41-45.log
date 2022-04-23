@@ -1,0 +1,8 @@
+2020-05-07 11:41:45,171 - logs… - INFO - 接口测试用例：test_api_01_01.py  ====== test  starts ========
+2020-05-07 11:41:45,254 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': '2', 'areaNo': '5', 'status': 1, 'content': [[1588822901000, 0]], 'door_status': 1}})
+2020-05-07 11:41:45,254 - logs… - INFO - code：200
+2020-05-07 11:41:45,254 - logs… - INFO - errcode：0
+2020-05-07 11:41:45,254 - logs… - INFO - furnaceNo：2
+2020-05-07 11:41:45,254 - logs… - INFO - areaNo：5
+2020-05-07 11:41:45,254 - logs… - INFO - 温度和时间不为空
+2020-05-07 11:41:45,254 - logs… - INFO - len(temp_list) =2

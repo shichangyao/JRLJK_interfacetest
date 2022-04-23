@@ -1,0 +1,2 @@
+2020-05-07 17:23:29,872 - logs… - INFO - (200, {'errcode': 0, 'data': {'furnaceNo': 1, 'areaNo': '1', 'status': 1, 'content': [], 'furnace_count': 10, 'area_count': '6', 'door_status': 1, 'target_temp': 1200}})
+2020-05-07 17:23:29,872 - logs… - INFO - 所获取指定炉的炉区域为： 6

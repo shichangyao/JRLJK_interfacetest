@@ -1,0 +1,2 @@
+2020-05-09 09:30:16,320 - logs… - INFO - 接口测试用例：test_api_04_01.py  ======== test  start ========
+2020-05-09 09:30:17,326 - logs… - INFO - get请求错误，错误原因：HTTPConnectionPool(host='10.168.2.104', port=8000): Max retries exceeded with url: /api/details/?furnaceNo=3&areaNo=4&sign=0&dur_time=22 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D098F60608>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))

@@ -1,0 +1,9 @@
+2020-05-11 17:40:50,619 - logs… - INFO - 接口测试用例：test_api_10_05.py  ======== test  start ========
+2020-05-11 17:40:50,620 - logs… - INFO - http://10.168.2.104:8000/api/set_crafts/
+2020-05-11 17:40:50,621 - logs… - INFO - {'furnaceNo': '11', 'password': '12345678'}
+2020-05-11 17:40:50,631 - logs… - INFO - (200, {'errcode': 101, 'errmsg': '不存在的炉子编号11!'})
+2020-05-11 17:40:50,631 - logs… - INFO - 请求码为： 200
+2020-05-11 17:40:50,632 - logs… - INFO - errcode/daerrmsgta  字段存在
+2020-05-11 17:40:50,632 - logs… - INFO - errcode  == 101
+2020-05-11 17:40:50,632 - logs… - INFO - errmsg 返回值验证成功
+2020-05-11 17:40:50,632 - logs… - INFO - 接口测试用例：test_api_10_05.py  ========= test  end ========

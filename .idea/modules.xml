@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JRLJK_interfacetest.iml" filepath="$PROJECT_DIR$/.idea/JRLJK_interfacetest.iml" />
+      <module fileurl="file://D://JRLJK_interfacetest/../../JRLJK_vinterfacetest/.idea/JRLJK_vinterfacetest.iml" filepath="D://JRLJK_interfacetest/../../JRLJK_vinterfacetest/.idea/JRLJK_vinterfacetest.iml" />
+    </modules>
+  </component>
+</project>
